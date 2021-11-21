@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    // [
+    //   "babel-plugin-lessimport",
+    //   {
+    //     "libraryName": "antd",
+    //     "modulePath": "/lib/{moduleName}",
+    //     "styleSuffix": "css",
+    //     "stylePath": "/lib/{moduleName}/style/index.{styleSuffix}"
+    //   }
+    // ]
+    [
+      "./src/babelPlugin/envPlugin"
+    ],
+    [
+      "./src/babelPlugin/removeConsolePlugin"
+    ],
+    [
+      "./src/babelPlugin/transFuncPlugin"
+    ]
+  ]
+}
